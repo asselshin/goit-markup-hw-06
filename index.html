@@ -407,8 +407,7 @@
            </button>
            <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
            <form class="modal-form">
-                <label for="username" class="modal-form-field">
-                    <span class="modal-form-text">Имя</span>
+                <label for="username" class="modal-form-field">Имя
                 </label>
                 <div class="modal-form-box">
                     <input class="modal-form-input" id="username" type="text" name="username" minlength="2" />
@@ -416,8 +415,7 @@
                         <use href="./images/icons.svg#icon-person"></use>
                     </svg>
                 </div>                                                    
-                <label for="user-telephone" class="modal-form-field">
-                    <span class="modal-form-text">Телефон</span>
+                <label for="user-telephone" class="modal-form-field">Телефон
                 </label>
                 <div class="modal-form-box">
                     <input class="modal-form-input" id="user-telephone" type="tel" name="user_telephone" required pattern="[0-9]{10}" title="0123456789" />        
@@ -425,8 +423,7 @@
                         <use href="./images/icons.svg#icon-phone"></use>
                     </svg>                    
                 </div>                                               
-                <label for="user-email" class="modal-form-field">
-                    <span class="modal-form-text">Почта</span>
+                <label for="user-email" class="modal-form-field">Почта
                 </label>
                 <div class="modal-form-box">
                     <input class="modal-form-input" id="user-email" type="email" name="user_email" />
@@ -434,10 +431,10 @@
                         <use href="./images/icons.svg#icon-email"></use>
                     </svg>
                 </div>                                
-                <label class="modal-form-field">
-                    <span class="modal-form-text">Комментарий</span>
-                    <textarea class="modal-form-textarea" name="user_message" rows="10" placeholder="Введите текст"></textarea>
+                <label class="modal-form-field" for="modal-form-textarea">Комментарий                    
                 </label>
+                <textarea class="modal-form-textarea" id="modal-form-textarea" name="user_message" rows="10" placeholder="Введите текст">                    
+                </textarea>                
                 <input class="form-checkbox visually-hidden" type="checkbox" id="checkbox-agreement" name="agreement_policy" required/>
                 <label class="form-checkbox-text" for="checkbox-agreement" >
                     Соглашаюсь с рассылкой и принимаю&nbsp;
